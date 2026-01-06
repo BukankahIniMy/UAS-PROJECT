@@ -23,7 +23,6 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
-// Form submission (demo)
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     alert('Pesan berhasil dikirim! Terimakasih atas masukannya');
